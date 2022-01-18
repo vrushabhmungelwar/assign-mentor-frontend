@@ -1,14 +1,14 @@
 import { AppBar, Box, Button, Toolbar } from "@mui/material";
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import NewMentor from "./createMentor";
+import NewMentor from "./pages/createMentor";
 import { useNavigate } from "react-router-dom";
-import NewStudent from "./createstudent";
-import AddStudentstoMentor from "./assignStudentToMentor";
-import ChangeMentorforStudent from "./mentorChange";
-import AllStudentsforEachMentor from "./listOfStudent";
-import ListAll from "./Home";
-import { Success } from "./success";
+import NewStudent from "./pages/createstudent";
+import AddStudentstoMentor from "./pages/assignStudentToMentor";
+import ChangeMentorforStudent from "./pages/mentorChange";
+import AllStudentsforEachMentor from "./pages/listOfStudent";
+import ListAll from "./pages/Home";
+import { Success } from "./pages/success";
 
 function App() {
   const navigate = useNavigate();
